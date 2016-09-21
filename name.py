@@ -4,8 +4,6 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/") #route decorator;
-#if anyone reaches root directory of webpage, return this root route
-#@app.route("/map") #allows <ip>/map to work as webpage.
 
 @app.route("/")
 def firstPg():
