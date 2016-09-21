@@ -7,15 +7,15 @@ app = Flask(__name__)
 
 @app.route("/")
 def firstPg():
-    return __name__ + "this is the first page" #return rather than print bc Flask
+    return __name__ + "this is the first page" 
 
 @app.route("/secondpg")
 def secondPg():
-    return __name__ + "this is the second page" #return rather than print bc Flask
+    return __name__ + "this is the second page" 
 
 @app.route("/thirdpg")
 def thirdPg():
-    return __name__ + "this is the third page" #return rather than print bc Flask
+    return __name__ + "this is the third page" 
 
 if __name__ == '__main__':
     app.run()
